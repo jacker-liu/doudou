@@ -1,0 +1,44 @@
+package doudou.library.com.refresh.custom.water;
+
+/**
+ * @author liubo
+ *         Create at 16/7/7 16:17.
+ */
+public class Circle {
+    private float x;//圆x坐标
+    private float y;//圆y坐标
+    private float radius;//圆半径
+    private int color;//圆的颜色
+
+    public float getX() {
+        return x;
+    }
+
+    public void setX(float x) {
+        this.x = x;
+    }
+
+    public float getY() {
+        return y;
+    }
+
+    public void setY(float y) {
+        this.y = y;
+    }
+
+    public float getRadius() {
+        return radius;
+    }
+
+    public void setRadius(float radius) {
+        this.radius = radius;
+    }
+
+    public int getColor() {
+        return color;
+    }
+
+    public void setColor(int color) {
+        this.color = color;
+    }
+}

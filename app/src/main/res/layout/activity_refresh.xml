@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doudou.library.com.refresh.custom.util.RefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/refreshLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <doudou.library.com.refresh.custom.util.StickyNavLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="aaa"/>
+
+        <TextView
+            android:text="aaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <ListView
+        android:id="@+id/refresh_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    </doudou.library.com.refresh.custom.util.StickyNavLayout>
+
+</doudou.library.com.refresh.custom.util.RefreshLayout>
